@@ -1,0 +1,62 @@
+[
+    {
+        "en": "borrow of moved value",
+        "ja": "移動された値の借用しました"
+    },
+    {
+        "en": "value moved here",
+        "ja": "ここで値を移動しました"
+    },
+    {
+        "en": "value borrowed here after move",
+        "ja": "移動後の値をここで借用しました"
+    },
+    {
+        "en": "move occurs because `{$name}` has type `{$ty}`, which does not implement the `Copy` trait",
+        "ja": "`{$ty}`型の`{$name}`は`Copy`トレイトを実装していないので、移動します"
+    },
+    {
+        "en": "consider cloning the value if the performance cost is acceptable",
+        "ja": "複製コストが許容できるなら、複製することを検討してください"
+    },
+    {
+        "en": "mismatched types",
+        "ja": "型が不一致です"
+    },
+    {
+        "en": "expected due to this",
+        "ja": "これにより期待される"
+    },
+    {
+        "en": "expected `{$ty1}`, found `{$ty2}`",
+        "ja": "`{$ty1}`を期待したが、`{$ty2}`が見つかった"
+    },
+    {
+        "en": "cannot find function `{$name}` in this scope",
+        "ja": "このスコープに関数`{$name}`が見つかりません"
+    },
+    {
+        "en": "not found in this scope",
+        "ja": "スコープ内で見つかりません"
+    },
+    {
+        "en": "unused variable: `{$name}`",
+        "ja": "変数が使われていません: `{$name}`"
+    },
+    {
+        "en": "if this is intentional, prefix it with an underscore",
+        "ja": "意図的ならアンダースコアを前に付けて下さい"
+    },
+    {
+        "en": "`#[{$name}]` on by default",
+        "ja": "`#[{$name}]`はデフォルトで有効です"
+    },
+    {
+        "en": "this operation will panic at runtime",
+        "ja": "この操作は実行時にパニックします"
+    },
+    {
+        "en": "index out of bounds: the length is {$len} but the index is {$index}",
+        "ja": "添え字が範囲外です: 長さは{$len}、添え字は{$index}"
+    }
+]
